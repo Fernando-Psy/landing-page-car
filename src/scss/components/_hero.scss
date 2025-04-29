@@ -1,0 +1,60 @@
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/api/placeholder/1200/600') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    position: relative;
+
+    &__content {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 70px;
+    }
+
+    &__title {
+        font-size: 3.5rem;
+        margin-bottom: 20px;
+        font-weight: 900;
+        opacity: 0;
+        transform: translateY(30px);
+        animation: fadeUp 1s forwards 0.5s;
+    }
+
+    &__subtitle {
+        font-size: 1.5rem;
+        margin-bottom: 40px;
+        opacity: 0;
+        transform: translateY(30px);
+        animation: fadeUp 1s forwards 0.7s;
+    }
+
+    &__button {
+        display: inline-block;
+        background-color: #ff6b00;
+        color: #fff;
+        padding: 15px 40px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 700;
+        transition: all 0.3s;
+        opacity: 0;
+        transform: translateY(30px);
+        animation: fadeUp 1s forwards 0.9s;
+    }
+
+    &__button:hover {
+        background-color: #e05e00;
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

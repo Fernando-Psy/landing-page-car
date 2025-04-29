@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consórcios</title>
+    <link rel="stylesheet" href="../dist/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="header__logo">SuperCar</a>
+            <nav class="header__nav">
+                <button class="header__menu-button">☰</button>
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="#hero" class="header__nav-link">Início</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#countdown" class="header__nav-link">Lançamento</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#attractions" class="header__nav-link">Atrações</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#vehicles" class="header__nav-link">Veículos</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#stores" class="header__nav-link">Lojas</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#faq" class="header__nav-link">FAQ</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container hero__content">
+            <h1 class="hero__title">NOVO SUPERCAR 2025</h1>
+            <p class="hero__subtitle">Uma experiência única de dirigir. Tecnologia avançada e design revolucionário.</p>
+            <a href="#countdown" class="hero__button">SAIBA MAIS</a>
+        </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section id="countdown" class="countdown section">
+        <div class="container">
+            <h2 class="section__title countdown__title">CONTAGEM REGRESSIVA PARA O LANÇAMENTO</h2>
+            <div class="countdown__container">
+                <div class="countdown__item">
+                    <div class="countdown__number" id="days">00</div>
+                    <div class="countdown__label">Dias</div>
+                </div>
+                <div class="countdown__item">
+                    <div class="countdown__number" id="hours">00</div>
+                    <div class="countdown__label">Horas</div>
+                </div>
+                <div class="countdown__item">
+                    <div class="countdown__number" id="minutes">00</div>
+                    <div class="countdown__label">Minutos</div>
+                </div>
+                <div class="countdown__item">
+                    <div class="countdown__number" id="seconds">00</div>
+                    <div class="countdown__label">Segundos</div>
+                </div>
+            </div>
+            <p class="countdown__info">Prepare-se para conhecer o futuro da mobilidade. O lançamento acontecerá no dia 15 de Junho de 2025, às 19h, com transmissão ao vivo para todo o mundo.</p>
+        </div>
+    </section>
+
+    <!-- Attractions Section -->
+    <section id="attractions" class="attractions section">
+        <div class="container">
+            <h2 class="section__title">ATRAÇÕES DO EVENTO</h2>
+            <p class="section__subtitle">Prepare-se para uma experiência incrível com diversas atrações exclusivas durante o evento de lançamento.</p>
+            <div class="attractions__container">
+                <div class="attraction">
+                    <img src="/api/placeholder/400/250" alt="Test Drive VR" class="attraction__image">
+                    <div class="attraction__content">
+                        <h3 class="attraction__title">Test Drive VR</h3>
+                        <p class="attraction__description">Experimente a sensação de dirigir o novo SuperCar através de uma experiência imersiva de realidade virtual.</p>
+                    </div>
+                </div>
+                <div class="attraction">
+                    <img src="/api/placeholder/400/250" alt="Show de Luzes" class="attraction__image">
+                    <div class="attraction__content">
+                        <h3 class="attraction__title">Show de Luzes</h3>
+                        <p class="attraction__description">Um espetáculo de luzes e projeções mapeadas que irá destacar todas as inovações do novo modelo.</p>
+                    </div>
+                </div>
+                <div class="attraction">
+                    <img src="/api/placeholder/400/250" alt="Workshop de Tecnologia" class="attraction__image">
+                    <div class="attraction__content">
+                        <h3 class="attraction__title">Workshop de Tecnologia</h3>
+                        <p class="attraction__description">Participe de workshops exclusivos sobre as tecnologias revolucionárias presentes no novo SuperCar.</p>
+                    </div>
+                </div>
+                <div class="attraction">
+                    <img src="/api/placeholder/400/250" alt="Pit Stop Challenge" class="attraction__image">
+                    <div class="attraction__content">
+                        <h3 class="attraction__title">Pit Stop Challenge</h3>
+                        <p class="attraction__description">Teste suas habilidades em um desafio de pit stop cronometrado e concorra a prêmios exclusivos.</p>
+                    </div>
+                </div>
+                <div class="attraction">
+                    <img src="/api/placeholder/400/250" alt="Simulador de Corrida" class="attraction__image">
+                    <div class="attraction__content">
+                        <h3 class="attraction__title">Simulador de Corrida</h3>
+                        <p class="attraction__description">Experimente a adrenalina de uma corrida profissional em nossos simuladores de última geração.</p>
+                    </div>
+                </div>
+                <div class="attraction">
+                    <img src="/api/placeholder/400/250" alt="Lounges VIP" class="attraction__image">
+                    <div class="attraction__content">
+                        <h3 class="attraction__title">Lounges VIP</h3>
+                        <p class="attraction__description">Áreas exclusivas com serviço premium para os convidados VIP do evento de lançamento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vehicles Section -->
+    <section id="vehicles" class="vehicles section">
+        <div class="container">
+            <h2 class="section__title">CONHEÇA NOSSOS VEÍCULOS</h2>
+            <p class="section__subtitle">Descubra a nova linha de veículos que está revolucionando o mercado automotivo com design e tecnologia de ponta.</p>
+            <div class="vehicles__tabs">
+                <button class="vehicles__tab vehicles__tab--active" data-category="all">Todos</button>
+                <button class="vehicles__tab" data-category="suv">SUVs</button>
+                <button class="vehicles__tab" data-category="sedan">Sedans</button>
+                <button class="vehicles__tab" data-category="sport">Esportivos</button>
+            </div>
+            <div class="vehicles__content">
+                <div class="vehicle" data-category="sport">
+                    <img src="/api/placeholder/400/250" alt="SuperCar GT" class="vehicle__image">
+                    <div class="vehicle__content">
+                        <h3 class="vehicle__title">SuperCar GT</h3>
+                        <div class="vehicle__price">R$ 850.000</div>
+                        <div class="vehicle__specs">
+                            <span class="vehicle__spec">600 HP</span>
+                            <span class="vehicle__spec">0-100 km/h: 3.2s</span>
+                            <span class="vehicle__spec">Elétrico</span>
+                            <span class="vehicle__spec">Autonomia: 500 km</span>
+                        </div>
+                        <a href="#" class="vehicle__button">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="vehicle" data-category="suv">
+                    <img src="/api/placeholder/400/250" alt="SuperCar SUV X" class="vehicle__image">
+                    <div class="vehicle__content">
+                        <h3 class="vehicle__title">SuperCar SUV X</h3>
+                        <div class="vehicle__price">R$ 650.000</div>
+                        <div class="vehicle__specs">
+                            <span class="vehicle__spec">450 HP</span>
+                            <span class="vehicle__spec">0-100 km/h: 4.5s</span>
+                            <span class="vehicle__spec">Híbrido</span>
+                            <span class="vehicle__spec">Autonomia: 700 km</span>
+                        </div>
+                        <a href="#" class="vehicle__button">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="vehicle" data-category="sedan">
+                    <img src="/api/placeholder/400/250" alt="SuperCar Sedan E" class="vehicle__image">
+                    <div class="vehicle__content">
+                        <h3 class="vehicle__title">SuperCar Sedan E</h3>
+                        <div class="vehicle__price">R$ 550.000</div>
+                        <div class="vehicle__specs">
+                            <span class="vehicle__spec">400 HP</span>
+                            <span class="vehicle__spec">0-100 km/h: 4.8s</span>
+                            <span class="vehicle__spec">Elétrico</span>
+                            <span class="vehicle__spec">Autonomia: 600 km</span>
+                        </div>
+                        <a href="#" class="vehicle__button">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="vehicle" data-category="sport">
+                    <img src="/api/placeholder/400/250" alt="SuperCar Roadster" class="vehicle__image">
+                    <div class="vehicle__content">
+                        <h3 class="vehicle__title">SuperCar Roadster</h3>
+                        <div class="vehicle__price">R$ 950.000</div>
+                        <div class="vehicle__specs">
+                            <span class="vehicle__spec">700 HP</span>
+                            <span class="vehicle__spec">0-100 km/h: 2.8s</span>
+                            <span class="vehicle__spec">Elétrico</span>
+                            <span class="vehicle__spec">Autonomia: 480 km</span>
+                        </div>
+                        <a href="#" class="vehicle__button">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="vehicle" data-category="suv">
+                    <img src="/api/placeholder/400/250" alt="SuperCar SUV Compact" class="vehicle__image">
+                    <div class="vehicle__content">
+                        <h3 class="vehicle__title">SuperCar SUV Compact</h3>
+                        <div class="vehicle__price">R$ 480.000</div>
+                        <div class="vehicle__specs">
+                            <span class="vehicle__spec">350 HP</span>
+                            <span class="vehicle__spec">0-100 km/h: 5.2s</span>
+                            <span class="vehicle__spec">Híbrido</span>
+                            <span class="vehicle__spec">Autonomia: 550 km</span>
+                        </div>
+                        <a href="#" class="vehicle__button">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="vehicle" data-category="sedan">
+                    <img src="/api/placeholder/400/250" alt="SuperCar Sedan Plus" class="vehicle__image">
+                    <div class="vehicle__content">
+                        <h3 class="vehicle__title">SuperCar Sedan Plus</h3>
+                        <div class="vehicle__price">R$ 620.000</div>
+                        <div class="vehicle__specs">
+                            <span class="vehicle__spec">420 HP</span>
+                            <span class="vehicle__spec">0-100 km/h: 4.5s</span>
+                            <span class="vehicle__spec">Híbrido</span>
+                            <span class="vehicle__spec">Autonomia: 650 km</span>
+                        </div>
+                        <a href="#" class="vehicle__button">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stores Section -->
+    <section id="stores" class="stores section">
+        <div class="container">
+            <h2 class="section__title">NOSSAS LOJAS</h2>
+            <p class="section__subtitle">Encontre a loja mais próxima de você e agende uma visita para conhecer nossos veículos de perto.</p>
+            <div class="stores__container">
+                <div class="store">
+                    <img src="/api/placeholder/200/200" alt="Loja São Paulo" class="store__image">
+                    <h3 class="store__title">São Paulo</h3>
+                    <p class="store__address">Av. Paulista, 1000, São Paulo - SP</p>
+                    <p class="store__phone">(11) 3333-4444</p>
+                </div>
+                <div class="store">
+                    <img src="/api/placeholder/200/200" alt="Loja Rio de Janeiro" class="store__image">
+                    <h3 class="store__title">Rio de Janeiro</h3>
+                    <p class="store__address">Av. Atlântica, 500, Rio de Janeiro - RJ</p>
+                    <p class="store__phone">(21) 3333-4444</p>
+                </div>
+                <div class="store">
+                    <img src="/api/placeholder/200/200" alt="Loja Belo Horizonte" class="store__image">
+                    <h3 class="store__title">Belo Horizonte</h3>
+                    <p class="store__address">Av. do Contorno, 789, Belo Horizonte - MG</p>
+                    <p class="store__phone">(31) 3333-4444</p>
+                </div>
+                <div class="store">
+                    <img src="/api/placeholder/200/200" alt="Loja Brasília" class="store__image">
+                    <h3 class="store__title">Brasília</h3>
+                    <p class="store__address">SHIS QL 10, Brasília - DF</p>
+                    <p class="store__phone">(61) 3333-4444</p>
+                </div>
+                <div class="store">
+                    <img src="/api/placeholder/200/200" alt="Loja Curitiba" class="store__image">
+                    <h3 class="store__title">Curitiba</h3>
+                    <p class="store__address">Rua Batel, 1234, Curitiba - PR</p>
+                    <p class="store__phone">(41) 3333-4444</p>
+                </div>
+                <div class="store">
+                    <img src="/api/placeholder/200/200" alt="Loja Recife" class="store__image">
+                    <h3 class="store__title">Recife</h3>
+                    <p class="store__address">Av. Boa Viagem, 3000, Recife - PE</p>
+                    <p class="store__phone">(81) 3333-4444</p>
+                </div>
+                <div class="store">
+                    <img src="/api/placeholder/200/200" alt="Loja Porto Alegre" class="store__image">
+                    <h3 class="store__title">Porto Alegre</h3>
+                    <p class="store__address">Av. Carlos Gomes, 222, Porto Alegre - RS</p>
+                    <p class="store__phone">(51) 3333-4444</p>
+                </div>
+                <div class="store">
+                    <img src="/api/placeholder/200/200" alt="Loja Salvador" class="store__image">
+                    <h3 class="store__title">Salvador</h3>
+                    <p class="store__address">Av. Oceânica, 4321, Salvador - BA</p>
+                    <p class="store__phone">(71) 3333-4444</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq section">
+        <div class="container">
+            <h2 class="section__title">PERGUNTAS FREQUENTES</h2>
+            <p class="section__subtitle">Tire suas dúvidas sobre o evento de lançamento e os novos veículos.</p>
+            <div class="faq__container">
+                <div class="faq__item">
+                    <div class="faq__question">Quando será o lançamento oficial do novo SuperCar?</div>
+                    <div class="faq__answer">
+                        <p>O lançamento oficial do novo SuperCar acontecerá no dia 15 de Junho de 2025, às 19h (horário de Brasília), com transmissão ao vivo para todo o mundo através do nosso canal oficial e redes sociais.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">Como posso participar do evento de lançamento?</div>
+                    <div class="faq__answer">
+                        <p>Para participar do evento de lançamento, você precisa adquirir um convite através do nosso site oficial ou em uma de nossas lojas autorizadas. Os convites são limitados e dão acesso a todas as atrações do evento.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">Quais são as formas de pagamento disponíveis?</div>
+                    <div class="faq__answer">
+                        <p>Aceitamos diversas formas de pagamento, incluindo cartões de crédito (em até 60x), financiamento bancário, consórcio, leasing, permuta com o seu veículo atual e pagamento à vista com condições especiais.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">Os veículos possuem garantia?</div>
+                    <div class="faq__answer">
+                        <p>Sim, todos os nossos veículos possuem garantia de 5 anos sem limite de quilometragem, além de garantia estendida de 8 anos para o sistema de baterias dos modelos elétricos e híbridos.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">Há serviço de test drive disponível antes da compra?</div>
+                    <div class="faq__answer">
+                        <p>Sim, oferecemos test drive para todos os nossos modelos. Você pode agendar um horário em qualquer uma de nossas lojas autorizadas ou durante o evento de lançamento, onde teremos unidades disponíveis para experiência.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question">Como funcionam os carros elétricos em termos de recarga?</div>
+                    <div class="faq__answer">
+                        <p>Nossos veículos elétricos são equipados com baterias de última geração que oferecem grande autonomia. A recarga pode ser feita em casa (tomada comum ou wallbox) ou em qualquer estação de recarga rápida da nossa rede, que já conta com mais de 500 pontos espalhados pelo Brasil.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__col">
+                <span class="footer__logo">SuperCar</span>
+                <p class="footer__description">A SuperCar é uma marca de veículos de luxo que combina design inovador, tecnologia de ponta e performance excepcional para oferecer uma experiência única de dirigir.</p>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link">F</a>
+                    <a href="#" class="footer__social-link">I</a>
+                    <a href="#" class="footer__social-link">T</a>
+                    <a href="#" class="footer__social-link">Y</a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h3 class="footer__title">Links Rápidos</h3>
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-item">
+                        <a href="#hero" class="footer__nav-link">Início</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="#countdown" class="footer__nav-link">Lançamento</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="#attractions" class="footer__nav-link">Atrações</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="#vehicles" class="footer__nav-link">Veículos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h3 class="footer__title">Contato</h3>
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-item">
+                        <a href="#" class="footer__nav-link">contato@supercar.com.br</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="#" class="footer__nav-link">0800 123 4567</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="#" class="footer__nav-link">Av. Brasil, 1000 - São Paulo</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h3 class="footer__title">Newsletter</h3>
+                <p class="footer__description">Receba novidades e lançamentos da SuperCar.</p>
+                <form class="footer__form">
+                    <input type="email" placeholder="Seu e-mail" class="footer__input">
+                    <button type="submit" class="footer__button">Inscrever-se</button>
+                </form>
+            </div>
+        </div>
+        <div class="container footer__bottom">
+            <p>&copy; 2025 SuperCar. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

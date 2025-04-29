@@ -1,0 +1,116 @@
+@use 'base/color' as color;
+
+.footer {
+    background-color: color.$primary-dark;
+    color: color.$white;
+    padding: 60px 0 30px;
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    &__col {
+        width: 25%;
+        padding-right: 20px;
+        margin-bottom: 30px;
+    }
+
+    &__logo {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    &__description {
+        color: color.$gray-light;
+        margin-bottom: 20px;
+        line-height: 1.8;
+    }
+
+    &__social {
+        display: flex;
+    }
+
+    &__social-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background-color: color.$secondary-color;
+        color: color.$white;
+        border-radius: 50%;
+        margin-right: 10px;
+        transition: background-color 0.3s;
+        text-decoration: none;
+
+        &:hover {
+        background-color: #ff6b00;
+        }
+    }
+
+    &__title {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    &__nav-list {
+        list-style: none;
+    }
+
+    &__nav-item {
+        margin-bottom: 10px;
+    }
+
+    &__nav-link {
+        color: #aaa;
+        text-decoration: none;
+        transition: color 0.3s;
+
+        &:hover {
+        color: #ff6b00;
+    }
+}
+
+    &__form {
+        margin-top: 15px;
+    }
+
+    &__input {
+        background-color: #222;
+        border: none;
+        padding: 12px 15px;
+        width: 100%;
+        color: #fff;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+    &__button {
+        background-color: #ff6b00;
+        color: #fff;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: background-color 0.3s;
+    }
+
+    &__button:hover {
+        background-color: #e05e00;
+    }
+
+    &__bottom {
+        text-align: center;
+        padding-top: 30px;
+        border-top: 1px solid #333;
+        color: #777;
+        font-size: 0.9rem;
+    }
+}

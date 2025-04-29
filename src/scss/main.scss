@@ -1,0 +1,55 @@
+@use 'base/color' as color;
+@use 'base/responsive';
+@use 'layout/header';
+@use 'layout/footer';
+@use 'components/hero';
+@use 'components/countdown';
+@use 'components/attractions';
+@use 'components/vehicles';
+@use 'components/stores';
+@use 'components/faq';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    overflow: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section {
+    padding: 64px 0;
+
+    &__title {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 40px;
+        font-weight: 700;
+        color: color.$primary-dark;
+    }
+
+    &__subtitle {
+        font-size: 1.2rem;
+        text-align: center;
+        margin-bottom: 32px;
+        max-width: 800px;
+        color: color.$primary-light;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

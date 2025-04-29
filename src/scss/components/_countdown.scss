@@ -1,0 +1,44 @@
+.countdown {
+    background-color: #f8f8f8;
+    text-align: center;
+
+    &__title {
+        color: #ff6b00;
+        margin-bottom: 50px;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    &__item {
+        margin: 0 15px;
+        min-width: 120px;
+    }
+
+    &__number {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #111;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
+    &__label {
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: #555;
+    }
+
+    &__info {
+        font-size: 1.2rem;
+        max-width: 600px;
+        margin: 0 auto;
+        color: #555;
+    }
+}
