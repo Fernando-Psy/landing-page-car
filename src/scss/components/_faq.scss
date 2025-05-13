@@ -59,3 +59,36 @@
         padding: 0 20px 20px;
     }
 }
+
+@media (max-width: 768px) {
+    .faq {
+        &__container {
+            padding: 0 15px;
+        }
+
+        &__question {
+            font-size: 1rem;
+
+            &::after {
+                font-size: 1.2rem;
+            }
+        }
+
+        &__answer {
+            font-size: 0.9rem;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .faq {
+        &__question {
+            flex-direction: column;
+            align-items: flex-start;
+
+            &::after {
+                align-self: flex-end;
+            }
+        }
+    }
+}

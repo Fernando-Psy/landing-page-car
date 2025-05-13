@@ -42,3 +42,47 @@
         color: #555;
     }
 }
+
+@media (max-width: 768px) {
+    .countdown {
+        &__container {
+            flex-direction: column;
+        }
+
+        &__item {
+            margin: 10px 0;
+            min-width: 100px;
+        }
+
+        &__number {
+            font-size: 2.5rem;
+            padding: 15px;
+        }
+
+        &__label {
+            font-size: 0.9rem;
+        }
+
+        &__info {
+            font-size: 1rem;
+            padding: 0 10px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .countdown {
+        &__number {
+            font-size: 2rem;
+            padding: 10px;
+        }
+
+        &__label {
+            font-size: 0.8rem;
+        }
+
+        &__info {
+            font-size: 0.9rem;
+        }
+    }
+}

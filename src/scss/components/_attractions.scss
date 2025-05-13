@@ -49,3 +49,27 @@
         margin-bottom: 15px;
     }
 }
+
+@media (max-width: 1024px) {
+    .attraction {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .attraction {
+        width: 100%;
+    }
+
+    .attraction__image {
+        height: 150px;
+    }
+
+    .attraction__title {
+        font-size: 1.25rem;
+    }
+
+    .attraction__description {
+        font-size: 0.9rem;
+    }
+}
